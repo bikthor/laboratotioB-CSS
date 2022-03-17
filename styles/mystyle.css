@@ -32,16 +32,14 @@ nav a:hover {
 
 .contenedor {
     display: flex;
-    flex-flow: row nowrap;
-    background-color: bisque;
-    flex-grow: 1;
+    flex-flow: row wrap;
+    width: 100vw;
 }
 
 
 .contenedor img {
     width: 200px;
     height: auto;
-    flex-shrink: 20;
 }
 
 .contenedor img:hover {
