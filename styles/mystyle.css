@@ -45,5 +45,5 @@ nav a:hover {
 .contenedor img:hover {
     box-sizing: border-box;
     border: 1px solid darkgray;
-    transform: scale(1.2,1.2);
+    transform: scale(1.2);
 }
