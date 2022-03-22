@@ -10,7 +10,7 @@ body {
 }
 nav {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 nav a {
     display: inline-block;
@@ -44,5 +44,6 @@ nav a:hover {
 
 .contenedor img:hover {
     box-sizing: border-box;
-    border: 2px solid darkgray;
+    border: 1px solid darkgray;
+    transform: scale(1.2,1.2);
 }
